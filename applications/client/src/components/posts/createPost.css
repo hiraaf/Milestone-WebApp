@@ -1,0 +1,101 @@
+.createpost {
+    height: 900px;
+}
+
+.exp-dropdown {
+    display: flex;
+    margin-left: -20px;
+}
+
+.formdiv {
+    margin: auto;
+    width: 900px;
+    height: 850px;
+    border: 1px solid gainsboro;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-radius: 20px;
+    margin-top: 65px;
+
+}
+
+.cp-titlebox {
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.name-cp:focus,
+.service-cp:focus,
+.tnp-cp:focus,
+.exp-one:focus,
+.exp-two:focus,
+.rate-cp:focus {
+    border: 3px solid darkgray;
+}
+
+.name-cp,
+.service-cp,
+.submit-cp,
+.exp-one,
+.exp-two,
+.rate-cp,
+.phone-cp {
+    margin: auto;
+    display: block;
+    width: 40%;
+    padding: 12px 20px;
+    margin-top: 50px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+
+}
+
+.tnp-cp {
+    margin: auto;
+    display: block;
+    width: 40%;
+    height: 100px;
+    padding: 10px 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+}
+
+.rate-span {
+    display: flex;
+    margin-left: 30%;
+}
+
+.submit-cp {
+    font-size: 25px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(15deg, #8BC6EC 0%, #9599E2 100%);
+
+    color: white;
+}
+
+.submit-cp:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(15deg, #8BC6EC 0%, #9599E2 100%);
+    color: black;
+}
+
+.submit-cp:active {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(15deg, #8BC6EC 0%, #9599E2 100%);
+
+    box-shadow: 0 5px darkgray;
+    transform: translateY(4px);
+}
+
+.cp-title {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Poppins, sans-serif;
+}

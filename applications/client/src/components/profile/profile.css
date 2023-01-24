@@ -1,0 +1,52 @@
+/* Profile */
+
+.side-box{
+  margin-left: 6em;
+  width: 300px;
+  height: 550px;
+  float:left;
+
+}
+.button-sched,.button-serv {
+  width: 250px;
+  height: 60px;
+  margin-top: 30px;
+}
+.sch-bttn,.serv-bttn {
+  width: 250px;
+  height: 60px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 1em;
+  border-radius: 20px;
+  background: aliceblue;
+}
+.sch-bttn:hover,.serv-bttn:hover {
+  background: lightblue;
+}
+.sch-bttn:active,.serv-bttn:active {
+  background: aliceblue;
+}
+.contentbox{
+  width: 800px;
+  height: 650px;
+  margin-left: 4em;
+  padding: 20px;
+  display: flex;
+
+}
+.column1,.column2{
+  flex: 50%;
+  border-radius: 20px;
+  background: gainsboro;
+}
+
+.month-content,.event-content {
+  border: 1px solid black;
+  width: 350px;
+  height: 450px;
+  margin-left: 1.5em;
+  background: white;
+  border-radius: 20px;
+}
+
